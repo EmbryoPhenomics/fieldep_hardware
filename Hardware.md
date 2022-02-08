@@ -103,7 +103,23 @@ https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-blank-10
 
 
 ## Switch mode operation
-FieldEP is designed to boot up into one of two modes. The process of bootup up is the same regardless of which mode is required. The _boot_ switch is momentarily partially unscrewed (3(?) full turns)
+FieldEP is designed to boot up into one of two modes. The process of bootup up is the same regardless of which mode is required. The _Boot_ switch is momentarily partially unscrewed (3(?) full turns). This initiates a boot cycle, whereby the state of the _Mode_ switch is monitored, and the system boots into the selected mode. 
+
+During Live View mode, a change in state of the _Mode_ switch will power the system down. 
+
+A typical deployment procedure would be:
+
+1) Position stage approximately where laboratory testing has shown focus point to be with chosen magnification
+2) Set _Mode_ to _Live_
+3) Boot system by momentarily unscrewing _Boot_ switch until system powers up
+4) Close _Boot_ switch
+5) Immerse system in shallow water, LED lamp module first
+6) Monitor live view whilst manipulating position of stage until focus is achieved
+7) Change _mode_ switch to _Deployment_ by fully screwing closed
+8) Boot system by momentarily unscrewing _Boot_ switch until system powers up
+
+Step 8 initiates an acquisition cycle. The first acquisition will occur immediately and subsequent acquisitions will occur according to the time delay set in config.json.
+
 
 ![Operation modes - coloured background](https://user-images.githubusercontent.com/36079329/153027524-af0c3455-1c4d-44c3-96b9-c2bb1a5ccd50.png)
 

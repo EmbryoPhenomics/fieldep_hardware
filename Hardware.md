@@ -36,12 +36,13 @@ Pin headers are also broken out to allow for connection to other modules. For th
 
 ## Housing parts list:
 * Blue Robotics 3" housing
-    - 298mm Acrylic tube (x2)
-    - O-ring flange (x4)
-    - Aluminium end cap - 7-hole
-    - Acrylic end cap
-    - Switch (x2)
-    - M10 vent & plug
+    - [298mm Acrylic tube](https://bluerobotics.com/store/watertight-enclosures/3-series/wte3-p-tube-12-r1/) (x2)
+    - [O-ring flange](https://bluerobotics.com/store/watertight-enclosures/3-series/o-ring-flange-3-series/) (x4)
+    - [Aluminium end cap - 7-hole](https://bluerobotics.com/store/watertight-enclosures/3-series/wte3-m-end-cap-7-hole-r1/)
+    - [Aluminium end cap - 4-hole](https://bluerobotics.com/store/watertight-enclosures/3-series/wte3-m-end-cap-4-hole-r1/)
+    - [Acrylic end cap](https://bluerobotics.com/store/watertight-enclosures/3-series/wte3-p-end-cap-r1/) (x2)
+    - [Switch](https://bluerobotics.com/store/comm-control-power/switch/switch-10-5a-r1/) (x2)
+    - [M10 vent & plug](https://bluerobotics.com/store/cables-connectors/penetrators/vent-asm-r1/)
     - M10 penetrator for 3mm cable
     - M10 penetrator for 4.5 mm cable
     - M3 x 16 mm screws (x 20 - included with end caps)
@@ -49,8 +50,8 @@ Pin headers are also broken out to allow for connection to other modules. For th
 * Faceplate
 * Rear plate
 * Electronics tray
-* M3 x 10 cap head screws (x 12)
-* _M2.5 x 10 cap head screws (x 4)_
+* [M3 x 10 mm cap head screws](https://www.accu.co.uk/en/low-head-cap-screws/8869-SSCL-M3-10-A4) (x 12)
+* _[M2.5 x 10 cap head screws](https://www.accu.co.uk/en/cap-head-screws/3964-SSCF-M2-5-10-A4) (x 4)_
 
 ## Electronic components
 **Camera module:**
@@ -76,7 +77,34 @@ Pin headers are also broken out to allow for connection to other modules. For th
 * 3.7V Battery as big as possible. Something like [this](https://uk.pi-supply.com/products/lithium-ion-battery-pack-3-7v-4400mah) as a minimum.
 
 
+
+
+
+
+
+
+
+https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-10-25-a/
+https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-blank-10-25-a-r2/
+
+
+
+
+
+
+
+
+
+
 ## Consumables
 * Solder
-* Epoxy encapsulant
+* [Epoxy encapsulant] (https://uk.rs-online.com/web/p/potting-compounds/1991430/?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_Adhesives_%26_Sealants_%26_Tapes_Whoop-_-Potting+Compounds_Whoop+(2)-_-1991430&matchtype=&pla-361646333034&gclid=Cj0KCQiA-aGCBhCwARIsAHDl5x_ZlQvM5ZzL2Q7NVCp0c83qOvFK9o2Kul7I_UrpGSP3q1dLpcyBrxwaAjktEALw_wcB&gclsrc=aw.ds)
 * Wire (22 AWG)
+
+
+## Switch mode operation
+FieldEP is designed to boot up into one of two modes. The process of bootup up is the same regardless of which mode is required. The _boot_ switch is momentarily partially unscrewed (3(?) full turns)
+
+![Operation modes - coloured background](https://user-images.githubusercontent.com/36079329/153027524-af0c3455-1c4d-44c3-96b9-c2bb1a5ccd50.png)
+
+

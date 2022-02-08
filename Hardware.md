@@ -5,14 +5,7 @@
 FieldEP comprises two submersible housings - cylinders of 76.2 mm internal diameter with aluminium flanges and an acrylic front window. Electronic hardware and a microscope lens are supported within the housing by a 3D-printed structure consisting of a front plate, rear plate and a tray. A LiPo battery is held underneath the tray to provide primary power to the electronics. 
 
 The second housing is used as an auxiliary battery chamber and LED lamp which illuminates subjects from the rear, towards the camera. Animals of interest are held between the two housings on an adjustable stage, held in place with nuts on threaded bar.
-
-
-![6-inch_stereo_assembly_2022-Jan-25_12-48-59PM-000_CustomizedView4010012559](https://user-images.githubusercontent.com/36079329/151009417-c0eac081-4633-4dbd-bbe9-f904de3b6eec.png)
-
-
-Front quarter           |  Rear quarter
-:-------------------------:|:-------------------------:
-![149bc0e0-a3e4-408e-a984-4182f6ccd5b9](https://user-images.githubusercontent.com/36079329/151009428-6739611c-4fd0-424b-936b-00f0f004af40.PNG) | ![6-inch_stereo_assembly_2022-Jan-25_02-07-14PM-000_CustomizedView30723018784](https://user-images.githubusercontent.com/36079329/151009349-7c3ce3ef-4660-4742-8464-047ac64c10dd.png)
+![99fb7549-5d30-4ef4-b056-59008e5c76de](https://user-images.githubusercontent.com/36079329/153034909-e3417ff8-f221-42b4-afe5-1915defd05c9.PNG)
 
 
 The modular design of the support structures inside the housing allows for ease of printing on non-specialist 3D printers, and accommodates changes to electronics and battery space requirements via minor changes to the lens supports which are bolted to the forward protrusions of the electronics tray.
@@ -24,7 +17,7 @@ Stacking headers are used to connect the main components to the Raspberry Pi. St
 |GSM Module|
 |PiJuice|
 |PiZero Breakout|
-|Raspberry Pi|
+|Raspberry Pi Zero W 2|
 
 Pin headers are also broken out to allow for connection to other modules. For the operation of sensors and communications the connections are broken out to a 90-degree pin header for connection via jumper wires.
 
@@ -77,6 +70,7 @@ Pin headers are also broken out to allow for connection to other modules. For th
 * 3.7V Battery as big as possible. Something like [this](https://uk.pi-supply.com/products/lithium-ion-battery-pack-3-7v-4400mah) as a minimum.
 
 
+_To be developed when time allows: Transistor-based switching of LED module to enable full power-down when not required. Suggested approach:_
 
 
 
@@ -122,5 +116,3 @@ Step 8 initiates an acquisition cycle. The first acquisition will occur immediat
 
 
 ![Operation modes - coloured background](https://user-images.githubusercontent.com/36079329/153027524-af0c3455-1c4d-44c3-96b9-c2bb1a5ccd50.png)
-
-

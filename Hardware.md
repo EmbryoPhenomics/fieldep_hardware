@@ -53,19 +53,28 @@ Pin headers are also broken out to allow for connection to other modules. For th
 * _M2.5 x 10 cap head screws (x 4)_
 
 ## Electronic components
-
-* Raspberry Pi Zero 2 W
+**Camera module:**
+* [Raspberry Pi Zero 2 W](https://thepihut.com/products/raspberry-pi-zero-2)
 * Arducam HQ camera module
-* PiJuice Zero
-* Waveshare GSM7000e SIM module
+* [PiJuice Zero](https://uk.pi-supply.com/products/pijuice-zero)
+* [Waveshare GSM7000e SIM module](https://www.unmannedtechshop.co.uk/product/nb-iot-emtc-edge-gprs-gnss-hat-for-raspberry-pi/)
 * GSM Antenna
 * SIM card
 * SMA connector
 * Blue Robotics TSYS01 temperature sensor
 * Blue Robotics I2C bus splitter
-* 12000 mAh LiPo cell
-* [PiZero Breakout board](https://www.abelectronics.co.uk/p/68/breakout-pi-zero)
+* [3.7V 12000 mAh Lithium cell](https://uk.pi-supply.com/products/pijuice-12000mah-battery)
+* [Ablelectronics Breakout PiZero](https://www.abelectronics.co.uk/p/68/breakout-pi-zero)
 * Extra long stacking pin header for Raspberry Pi (15 mm pins)
+
+
+
+
+**Light module:**
+* [Sparkfun Lumidrive](https://coolcomponents.co.uk/products/lumidrive-led-driver)
+* [Lumini 2" LED ring](https://coolcomponents.co.uk/products/lumini-led-ring-2-inch-40-x-apa102-2020?_pos=3&_sid=d6814a536&_ss=r)
+* 3.7V Battery as big as possible. Something like [this](https://uk.pi-supply.com/products/lithium-ion-battery-pack-3-7v-4400mah) as a minimum.
+
 
 ## Consumables
 * Solder

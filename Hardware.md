@@ -43,7 +43,10 @@ Pin headers are also broken out to allow for connection to other modules. For th
 * Faceplate
 * Rear plate
 * Electronics tray
-* [M3 x 10 mm cap head screws](https://www.accu.co.uk/en/low-head-cap-screws/8869-SSCL-M3-10-A4) (x 12)
+* [M3 x 10 mm cap head screws](https://www.accu.co.uk/en/cap-head-screws/3975-SSCF-M3-10-A4) (x 12)
+* [M3 x 16 mm cap head screws](https://www.accu.co.uk/en/cap-head-screws/3978-SSCF-M3-16-A4) (x 4)
+* [M3 x 8 mm cap head screws](https://www.accu.co.uk/en/cap-head-screws/3974-SSCF-M3-8-A4) (x 3)
+* [M3 x 8 mm countersunk screws](https://www.accu.co.uk/en/countersunk-socket-head-screws/5596-SSK-M3-8-A4) (x 10)
 * _[M2.5 x 10 cap head screws](https://www.accu.co.uk/en/cap-head-screws/3964-SSCF-M2-5-10-A4) (x 4)_
 
 ## Electronic components

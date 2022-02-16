@@ -76,10 +76,22 @@ Pin headers are also broken out to allow for connection to other modules. For th
 _To be developed when time allows: Transistor-based switching of LED module to enable full power-down when not required. Suggested approach:_
 
 
+## LED circuit
+
+The LED light comprises an array of WS2812 LEDs, controlled via the Raspberry Pi and powered using an external battery. The LED circuit is switched using an N-channel MOSFET. 
+
+|Schematic|Breadboard|
+|----------|---------|
+|![MOSFET Neopixel LED Schematic cap](https://user-images.githubusercontent.com/36079329/154329071-83bbe97a-89d2-4e7f-82f2-37af3e909498.png)|![MOSFET Neopixel LED breadboard cap](https://user-images.githubusercontent.com/36079329/154330610-2ee92b78-4fba-48f1-ba46-71b2af1b541b.png)|
 
 
-
-
+|Part|Detail|Role|Note|
+|-----|-----|-----|-----|
+|R1|330 &Omega; |Protect Pi GPIO from overcurrent| Calculated: _R = V/I_ where V is the power supply voltage (4.8V) and I is the max GPIO current for Pi GPIO (16 mA)|
+|R2|100 k&Omega;|Pull-down resistor|Ensure Gate pin on MOSFET is stable|Recommend high value|
+|Q1|Max 30A|Switches LED circuit|Relies on voltage difference between Gate and Source (Pins 1 & 3)|
+|WS2812|RGB LED|Illumination!|May need a 1N4001 diode between battery positive terminal and VDD if unexpected behaviour occurs due to logic level discrepancy between Pi (3.3V) and LED (5V)| 
+|C1|1000 &mu;F|Compensates for spikes in current draw|Recommended but not essential|
 
 https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-10-25-a/
 https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-blank-10-25-a-r2/

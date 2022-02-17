@@ -2,8 +2,8 @@ This folder contains STL files for FieldEP electronics supports, frame and stage
 
 ## Internal components
 
-
 ![Tray_plate_3-inch_Mk3_2022-Feb-17_03-37-20PM-000_CustomizedView10696725587](https://user-images.githubusercontent.com/36079329/154523791-76b17484-7a8b-4082-a5ce-64394772adbb.png)
+
 
 |Part|Note|
 |----|----|

@@ -10,6 +10,13 @@ The second housing is used as an auxiliary battery chamber and LED lamp which il
 
 The modular design of the support structures inside the housing allows for ease of printing on non-specialist 3D printers, and accommodates changes to electronics and battery space requirements via minor changes to the lens supports which are bolted to the forward protrusions of the electronics tray.
 
+To summarise the main components and their function, the Raspberry Pi takes and records inputs (sensors, cameras), and transmits to a cloud-based dashboard. Power management and timing is handled by a Pi Supply PiJuice Zero, which also takes a user input to initiate bootup. Power is supplied by a LiPo cell for powering the Pi, and a D-cell battery pack which keeps the LiPo cell charged via the PiJuice Zero, and powers the LED light.
+
+![FieldEP diagram v2 drawio(1)](https://user-images.githubusercontent.com/36079329/155698121-bf3ac785-09a7-4ccb-b015-2e4dd61371ca.svg)
+
+
+
+
 ## Electronic components
 Stacking headers are used to connect the main components to the Raspberry Pi. Stacking moPiJuicedules are connected in the order:
 |Pi HAT|

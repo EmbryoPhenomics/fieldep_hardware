@@ -89,14 +89,15 @@ The LED light comprises an array of WS2812 LEDs, controlled via the Raspberry Pi
 
 |Schematic|Breadboard|
 |----------|---------|
-|![MOSFET Neopixel LED Schematic cap](https://user-images.githubusercontent.com/36079329/154329071-83bbe97a-89d2-4e7f-82f2-37af3e909498.png)|![MOSFET Neopixel LED breadboard cap](https://user-images.githubusercontent.com/36079329/154330610-2ee92b78-4fba-48f1-ba46-71b2af1b541b.png)|
+|![LED MOSFET FieldEP_schem](https://user-images.githubusercontent.com/36079329/156024132-417eed46-d819-46f4-8e5e-541a073d2d21.png)|![LED MOSFET FieldEP_bb v2](https://user-images.githubusercontent.com/36079329/156024098-082544f8-67d7-4d4d-ae1a-34f9ddbb3443.png)|
+
 
 
 |Part|Detail|Role|Note|
 |-----|-----|-----|-----|
 |R1|330 &Omega; |Protect Pi GPIO from overcurrent| Calculated: _R = V/I_ where V is the power supply voltage (4.8V) and I is the max GPIO current for Pi GPIO (16 mA)|
 |R2|100 k&Omega;|Pull-down resistor|Ensure Gate pin on MOSFET is stable|Recommend high value|
-|Q1|Max 30A|Switches LED circuit|Relies on voltage difference between Gate and Source (Pins 1 & 3)|
+|Q1|[IRLB8721](https://uk.rs-online.com/web/p/mosfets/7259322)|Switches LED circuit|Logic-level N-channel MOSFET. Relies on voltage difference between Gate and Source (Pins 1 & 3). Alternatives include [IRLZ44ZPBF](https://uk.rs-online.com/web/p/mosfets/6887308) and [FQP30N06L](https://uk.rs-online.com/web/p/mosfets/8075863)|
 |WS2812|RGB LED|Illumination!|May need a 1N4001 diode between battery positive terminal and VDD if unexpected behaviour occurs due to logic level discrepancy between Pi (3.3V) and LED (5V)| 
 |C1|1000 &mu;F|Compensates for spikes in current draw|Recommended but not essential|
 

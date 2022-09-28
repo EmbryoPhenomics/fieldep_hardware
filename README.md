@@ -14,3 +14,5 @@ Latest version of hardware comprises a camera module and a light module.
 * [Sparkfun Lumidrive](https://coolcomponents.co.uk/products/lumidrive-led-driver)
 * [Lumini 2" LED ring](https://coolcomponents.co.uk/products/lumini-led-ring-2-inch-40-x-apa102-2020?_pos=3&_sid=d6814a536&_ss=r)
 * 3.7V Battery as big as possible. Something like [this](https://uk.pi-supply.com/products/lithium-ion-battery-pack-3-7v-4400mah) as a minimum.
+
+<iframe src="https://myhub.autodesk360.com/ue2c78370/shares/public/SH9285eQTcf875d3c539a6b3ce2d492fae0a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
